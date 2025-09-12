@@ -1,0 +1,18 @@
+h3 {
+  color: brown;
+  font-size: 100px;
+  border-bottom: 1px solid brown;
+}
+
+/* navabar */
+#rez-para {
+  color: brown;
+  font-size: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+/* footer */
+h2 {
+  color: red;
+}
