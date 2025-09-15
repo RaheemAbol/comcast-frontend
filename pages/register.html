@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../styles/register.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-section"></div>
+      <div class="form-section">
+        <h1>Sign up For An Account</h1>
+        <form action="" id="signupForm">
+          <input type="text" id="name" name="name" placeholder="Full Name" />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email Address"
+          />
+          <input type="tel" id="tel" name="tel" placeholder="Phone Number" />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+          />
+          <select name="refer" id="refer">
+            <option value="" disabled selected>
+              How did you hear about us?
+            </option>
+            <option value="facebook">facebook</option>
+            <option value="Linkedin">Linkedin</option>
+            <option value="Google">Google</option>
+          </select>
+
+          <fieldset class="dining-space">
+            <legend>Preferred Contact Method</legend>
+            <label>
+              <input type="radio" name="contact" value="email" />
+              Email
+            </label>
+            <label>
+              <input type="radio" name="contact" value="Phone" />
+              Phone
+            </label>
+          </fieldset>
+          <label>
+            <input type="checkbox" name="terms" value="terms" />
+            I agree to terms and conditions
+          </label>
+          <button type="submit" class="book-btn">Register</button>
+        </form>
+        <p>Already a member?... <a href="login.html">Sign in</a></p>
+      </div>
+    </div>
+  </body>
+</html>
